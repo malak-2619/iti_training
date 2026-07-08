@@ -1,0 +1,30 @@
+HTML (HyperText markup language)
+
+What is it?
+HTML is a markup language that is used to create the structure of a web page. It is used to define 
+elements of a web page like paragraphs, inputs, headings, media, etc. It is like the skeleton of a web page.
+
+General importance of it:
+1- Provides structure and meaning to the content of the page so browsers can display it correctly and build an
+organized layout using structural elements (like <div>) or semantic elements (<section>, <aside>, <figure>, etc.).
+2- Provides metadata through meta tags (like the description), which helps search engines display the website in related 
+search results. In addition, the viewport tag helps ensure responsiveness by matching the page width to the device's screen width.
+
+Most common tags:
+-<h1>(to "<h6>"): used to create headings.
+-<p>: used to create a paragraph.
+-<label>: generally used to create a label for inputs.
+-<a>: anchor tag used for adding links to another page, file, website, or a different section of the same page.
+-<img>: used for adding images.
+-<input>: used for adding many types of inputs (text, number, date, email, telephone number, etc.).
+-<table>: used for creating tables or organizing elements (previously).
+-<div>: a container used for grouping elements and organizing layouts.
+-<button>: used for adding a clickable button.
+-<ol>: creates an ordered list.
+-<ul>: creates an unordered list.
+-<form>: used to group inputs and buttons to create a form.
+-<textarea>: used to create a multi-line text input.
+-<select>: used to create a list of options that the user can choose from.
+
+
+
