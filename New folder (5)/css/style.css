@@ -1,0 +1,123 @@
+:root {
+    --snow: #f0f0f0;
+    --light_blue: #b7d9f5;
+    --afloat: #77a4c2;
+    --blue: #334251;
+    --dark_blue: #1a2947;
+}
+
+* {
+    background-color: var(--dark_blue);
+    color: var(--snow);
+    border-color: var(--light_blue);
+}
+
+header img {
+    border-radius: 20px;
+    align-content: center;
+    width: 10rem;
+}
+
+nav {
+    background-color: var(--light_blue);
+    padding: 10px;
+}
+main{
+    max-width: 70rem;
+}
+.section-title {
+    text-align: center;
+    background-color: var(--afloat);
+    color: var(--blue);
+    border-radius: 8px;
+}
+
+#job {
+    color: #334251;
+    background-color: #b7d9f5;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+a {
+    background-color: var(--light_blue);
+    color: var(--dark_blue);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--blue);
+    color: var(--snow);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section,
+fieldset {
+    padding: 10px;
+}
+
+label,
+p {
+    color: var(--snow);
+}
+
+#main-par {
+    background-color: #b7d9f5;
+    color: var(--blue);
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    cursor: not-allowed;
+}
+
+input[type="submit"],
+input[type="reset"],
+button{
+    background-color: var(--light_blue);
+    color: var(--dark_blue);
+    cursor: pointer;
+}
+#contact #button-section{
+    text-align: center;
+}
+button{
+    padding: 1vw;
+    width: 10rem;
+    border-radius: 8px;
+}
+#last-section p {
+    width: 50%;
+    height: 15em;
+    margin: auto;
+    --specialColor: rgb(93, 177, 246);
+    color: var(--specialColor);
+    background-image: url("../img/images\ \(2\).jfif");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    cursor: grab;
+    min-height: 10vh;
+}
+
+
+footer{
+   text-align: center !important;
+}
+footer{
+    text-align: left;
+    /* this won't work because of the
+    "!important" in the previous selector*/
+}
+
+footer,
+address,
+footer>p {
+    background-color: var(--light_blue);
+    color: var(--dark_blue);
+}
+
