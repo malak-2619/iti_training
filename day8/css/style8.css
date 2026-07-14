@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center space-between;
+  justify-content: center;
   align-items: center;
   align-content: center;
   flex-direction: column;
@@ -40,10 +40,6 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-}
-
-nav .anchors {
-  justify-content: end;
 }
 
 a:hover {
