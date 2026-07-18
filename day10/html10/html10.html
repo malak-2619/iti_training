@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="../css10/style10.css">
+    <link rel="stylesheet" href="../css10/bootstrap.min.css">
+</head>
+
+<body>
+    <main>
+
+        <section class="first-half">
+            <nav class="nav">
+                <img src="../task-images/logo.png" alt="logo">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">out offer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">gallery</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-light" href="#">contact</a>
+
+                    </li>
+                </ul>
+            </nav>
+            <div class="content">
+                <span>welcome to</span>
+                <h1>Family Bakery</h1>
+                <p>we're the biggest, best equipped and most
+                    advanced bakery in th greater los angeles area
+                </p>
+                <button id="first">Learn more</button>
+                <button id="second">contact us</button>
+            </div>
+        </section>
+
+        <section class="second-half">
+            <div class="divtemp">
+                <div class="temp1">
+                    <img src="../task-images/bakery.jpg" alt="bakery">
+                    <div class="overl">
+                        <h1>bake</h1>
+                    </div>
+                </div>
+                <div class="content2">
+                    <h2>Who are we ?</h2>
+                    <p>we have been operating for over 30 years and are
+                        members of the federation of master builders. we
+                        work on projects big and small from small residental
+                        extensions to full house. we are so happy with this
+                        theme everyday it makes our lives better
+                    </p>
+                    <ul>
+                        <li>we care about environment</li>
+                        <li>we are trusted by hundreds of clients</li>
+                        <li>social media loves us!</li>
+                        <li>this list is super easy to create</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="third-page">
+            <h2>Avilable products</h2>
+            <div class="cont d-flex flex-wrap">
+
+                <div class="card col-12 col-md-6 col-lg-4">
+                    <img src="../task-images/bead2.jpeg" alt="b">
+                    <p>bread</p>
+                    <button>learn more</button>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4">
+                    <img src="../task-images/cakes.jpg" alt="b">
+                    <p>desserts</p>
+                    <button>learn more</button>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4S">
+                    <img src="../task-images/bread.jpg" alt="b">
+                    <p>cutom cakes corder</p>
+                    <button><a href="#customize">learn more</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="forth-page">
+            <div>
+                <h2>special offer !</h2>
+                <p>enjoy a 25% discount on dessert section this summer!
+                    includes delivery fees
+                </p>
+                <button>order now</button>
+            </div>
+        </section>
+
+        <section id="customize">
+            <h2>cakes order</h2>
+            <h6>enter your preference:</h6>
+            <form>
+                <div>
+                    <label class="col-md-6">flavour</label>
+                    <select class="col-md-6" id="flavor">
+                        <option value="1">none</option>
+                        <option value="2">chocolate</option>
+                        <option value="3">strawberry</option>
+                        <option value="4">vanilla</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="col-md-6">layers</label>
+                    <select class="col-md-6" id="layers">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <textarea class="col-12" id="d" placeholder="enter more details"></textarea><br>
+                <a href="#contact"><input type="submit" class="fb"></a>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>delivery info</h2>
+            <div class="con2">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">name</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">telephone</label>
+                        <input type="tel" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">apartment</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="fb">finished</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Family Bakery | Los anglos | t:000000000</p>
+        <p>all rights reserved &copy;</p>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
