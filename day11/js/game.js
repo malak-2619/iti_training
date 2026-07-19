@@ -1,6 +1,8 @@
-var PlayerOneChoice=prompt("player 1 chooses: ");
-var PlayerTwoChoice=prompt("player 2 chooses: ");
-
+//var PlayerOneChoice=prompt("player 1 chooses: ");
+//var PlayerTwoChoice=prompt("player 2 chooses: ");
+var PlayerOneChoice="Rock";
+var PlayerTwoChoice="Paper";
+    
 if(PlayerOneChoice===PlayerTwoChoice){
     console.log("Tie");
 }
