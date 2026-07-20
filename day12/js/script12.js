@@ -33,6 +33,7 @@ function add(x, y) {
 var a = 20;
 var b = 30;
 const avg = () => { return (add(a, b) / 2); }
+console.log(avg());
 
 //self-invoke function (factorial example)
 (function (x) {
