@@ -21,7 +21,7 @@ button1.addEventListener(`click`,
         let n = document.getElementById(`name`).value.trim();
         let a = document.getElementById(`age`).value;
         let j = document.getElementById(`job`).value.trim();
-        if (n === "" || a === "" || j === "") {
+        if (n === "" || a === "" || j === "") {  // empty inputs return an empty string not undefined nor null....
             alert("please fill all the fields");
         }
         else {
